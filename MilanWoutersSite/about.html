@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWO | Profile</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="public/images/favicon.png">
+</head>
+
+<body class="page-about">
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">MWO</a>
+        <div class="nav-links">
+            <a href="about.html" class="active" data-i18n="nav.profile">Profile</a>
+            <a href="skills.html" data-i18n="nav.skills">Skills</a>
+            <a href="projects.html" data-i18n="nav.work">Work</a>
+            <a href="journey.html" data-i18n="nav.journey">Journey</a>
+            <a href="freelance.html" data-i18n="nav.services">Services</a>
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span style="color: var(--text-tertiary);">|</span>
+                <button class="lang-btn" data-lang="nl">NL</button>
+            </div>
+            <a href="contact.html" class="cta-btn" data-i18n="nav.connect">Connect</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="about-section">
+            <!-- Constrained Image Container -->
+            <div class="about-image-container">
+                <img src="public/images/about-photo.jpg" alt="Milan Wouters & Partner">
+            </div>
+
+            <!-- Content -->
+            <div class="about-content">
+                <span class="hero-label" data-i18n="about.label">WEB & APP DEVELOPER</span>
+                <h2 data-i18n="about.h2">Turning Ideas <br>into Reality.</h2>
+                <p data-i18n="about.p">I am Milan Wouters, an Applied AI student at Thomas More with a passion for
+                    development. I create
+                    modern websites and mobile apps, turning concepts into functional code.</p>
+
+                <!-- Stats removed by user request -->
+
+                <div style="margin-top: 3rem;">
+                    <p style="font-size: 0.9rem; color: var(--text-tertiary); margin-bottom: 0.5rem;"
+                        data-i18n="about.edu.title">EDUCATION & EXPERIENCE</p>
+                    <p style="color: white; margin-bottom: 0;" data-i18n="about.edu.1">Thomas More University (APPAI)
+                    </p>
+                    <p style="color: white;" data-i18n="about.edu.2">Katholiek Onderwijs (Accountancy & IT)</p>
+                    <p
+                        style="color: white; margin-top: 1rem; padding-left: 1rem; border-left: 2px solid var(--accent-subtle);">
+                        <strong data-i18n="about.edu.bip">BIP Lithuania</strong><br>
+                        <span style="font-size: 0.9rem; color: var(--text-secondary);"
+                            data-i18n="about.edu.bip_desc">International Intensive Programme on Apex Oracle</span>
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    </div>
+    </div>
+    </section>
+    </div>
+
+    <footer>
+        <div class="container" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+            <span data-i18n="footer.rights">&copy; 2026 Milan Wouters.</span>
+            <a href="privacy.html" style="font-size: 0.8rem; color: var(--text-tertiary);"
+                data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWO | Services</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="public/images/favicon.png">
+</head>
+
+<body class="page-services">
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">MWO</a>
+        <div class="nav-links">
+            <a href="about.html" data-i18n="nav.profile">Profile</a>
+            <a href="skills.html" data-i18n="nav.skills">Skills</a>
+            <a href="projects.html" data-i18n="nav.work">Work</a>
+            <a href="journey.html" data-i18n="nav.journey">Journey</a>
+            <a href="freelance.html" class="active" data-i18n="nav.services">Services</a>
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span style="color: var(--text-tertiary);">|</span>
+                <button class="lang-btn" data-lang="nl">NL</button>
+            </div>
+            <a href="contact.html" class="cta-btn" data-i18n="nav.connect">Connect</a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <section class="services-container">
+            <div class="section-header">
+                <span class="hero-label" data-i18n="services.label">CAPABILITIES</span>
+                <h2 data-i18n="services.h1">Digital Solutions for<br>the Modern Web</h2>
+                <p data-i18n="services.desc">I combine technical precision with aesthetic intuition to build digital
+                    products that stand out.</p>
+            </div>
+
+            <!-- Services Grid -->
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <svg class="service-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                    </svg>
+                    <h3 data-i18n="services.1.title">Web Development</h3>
+                    <p data-i18n="services.1.desc">Full-stack development using modern frameworks. I build scalable,
+                        high-performance websites and
+                        applications tailored to your needs.</p>
+                    <div class="service-footer">
+                        <span class="service-price" data-i18n="services.1.price">Custom / Project-based</span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <svg class="service-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01">
+                        </path>
+                    </svg>
+                    <h3 data-i18n="services.2.title">UI / UX Design</h3>
+                    <p data-i18n="services.2.desc">Interfaces that feel as good as they look. I focus on user-centric
+                        design principles to ensure
+                        high engagement and conversion.</p>
+                    <div class="service-footer">
+                        <span class="service-price" data-i18n="services.2.price">Included in Dev Packages</span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <svg class="service-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                    </svg>
+                    <h3 data-i18n="services.3.title">Performance</h3>
+                    <p data-i18n="services.3.desc">Speed implies reliability. I optimize every line of code to ensure
+                        your digital assets load
+                        instantly and run smoothly.</p>
+                    <div class="service-footer">
+                        <span class="service-price" data-i18n="services.3.price">Optimization Audits</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Partnership Block -->
+            <div class="partnership-block">
+                <div class="partner-content">
+                    <span class="partner-label" data-i18n="services.partner.label">Expanded Capacity</span>
+                    <h3 data-i18n="services.partner.title">Collaborative Power</h3>
+                    <p data-i18n="services.partner.desc">For enterprise-scale projects, I partner with <strong>Raoul
+                            Buffels</strong>. Together, we
+                        combine specialized skill sets to tackle complex technical challenges and deliver robust
+                        solutions.</p>
+                </div>
+                <div class="partner-action">
+                    <a href="contact.html" class="cta-btn" data-i18n="services.partner.btn">Inquire about
+                        Partnership</a>
+                </div>
+            </div>
+
+            <!-- Process Section -->
+            <div class="process-section">
+                <div class="section-header" style="text-align: left; margin-bottom: 3rem;">
+                    <span class="hero-label" data-i18n="services.process.label">THE PROCESS</span>
+                    <h2 style="font-size: 2.5rem;" data-i18n="services.process.title">How I Work</h2>
+                </div>
+
+                <div class="process-grid">
+                    <div class="process-step">
+                        <span class="step-num">01</span>
+                        <div class="step-content">
+                            <h4 data-i18n="services.process.1.title">Discovery</h4>
+                            <p data-i18n="services.process.1.desc">Understanding your specific goals, audience, and
+                                technical requirements.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <span class="step-num">02</span>
+                        <div class="step-content">
+                            <h4 data-i18n="services.process.2.title">Strategy</h4>
+                            <p data-i18n="services.process.2.desc">Planning the architecture, design system, and roadmap
+                                for execution.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <span class="step-num">03</span>
+                        <div class="step-content">
+                            <h4 data-i18n="services.process.3.title">Development</h4>
+                            <p data-i18n="services.process.3.desc">Iterative coding with regular check-ins to ensure
+                                alignment.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <span class="step-num">04</span>
+                        <div class="step-content">
+                            <h4 data-i18n="services.process.4.title">Launch</h4>
+                            <p data-i18n="services.process.4.desc">Deployment, final testing, and hand-off with
+                                necessary training.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <footer>
+        <div class="container" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+            <span data-i18n="footer.rights">&copy; 2026 Milan Wouters.</span>
+            <a href="privacy.html" style="font-size: 0.8rem; color: var(--text-tertiary);"
+                data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

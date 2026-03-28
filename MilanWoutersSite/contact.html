@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWO | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="public/images/favicon.png">
+</head>
+
+<body class="page-contact">
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">MWO</a>
+        <div class="nav-links">
+            <a href="about.html" data-i18n="nav.profile">Profile</a>
+            <a href="skills.html" data-i18n="nav.skills">Skills</a>
+            <a href="projects.html" data-i18n="nav.work">Work</a>
+            <a href="journey.html" data-i18n="nav.journey">Journey</a>
+            <a href="freelance.html" data-i18n="nav.services">Services</a>
+            <a href="contact.html" class="active" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span style="color: var(--text-tertiary);">|</span>
+                <button class="lang-btn" data-lang="nl">NL</button>
+            </div>
+            <a href="contact.html" class="cta-btn" data-i18n="nav.connect">Connect</a>
+        </div>
+    </nav>
+
+    <div class="contact-page-wrapper">
+        <div class="split-layout">
+            <!-- Left Side: Info -->
+            <div class="left-panel">
+                <h1 class="page-title" data-i18n="contact.h1">Start a<br>Project</h1>
+
+                <div class="contact-details">
+                    <div class="detail-item">
+                        <span class="label" data-i18n="contact.email.label">Email</span>
+                        <a href="mailto:milanwouters78@gmail.com">milanwouters78@gmail.com</a>
+                    </div>
+
+                    <div class="detail-item">
+                        <span class="label" data-i18n="contact.social.label">Socials</span>
+                        <div class="social-icons-row">
+                            <a href="https://www.linkedin.com/in/milanwouters/" target="_blank">LinkedIn</a>
+                            <a href="https://www.instagram.com/milan.wouters52/" target="_blank">Instagram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side: Form -->
+            <div class="right-panel">
+                <form class="boxed-form" action="https://formsubmit.co/milanwouters78@gmail.com" method="POST">
+                    <div class="input-group">
+                        <label data-i18n="contact.form.name">What's your name?</label>
+                        <input type="text" name="name" class="boxed-input" required placeholder="David Smith">
+                    </div>
+
+                    <div class="input-group">
+                        <label data-i18n="contact.form.email">Your email address</label>
+                        <input type="email" name="email" class="boxed-input" required placeholder="david@company.com">
+                    </div>
+
+                    <div class="input-group">
+                        <label data-i18n="contact.form.message">Tell use about your idea</label>
+                        <textarea name="message" rows="5" class="boxed-input" required
+                            placeholder="I want to build..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn" data-i18n="contact.form.submit">Send Proposal</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+            <span data-i18n="footer.rights">&copy; 2026 Milan Wouters.</span>
+            <a href="privacy.html" style="font-size: 0.8rem; color: var(--text-tertiary);"
+                data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MWO | The Journey</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="public/images/favicon.png">
+</head>
+
+<body class="page-journey">
+
+    <nav class="navbar">
+        <a href="index.html" class="nav-logo">MWO</a>
+        <div class="nav-links">
+            <a href="about.html" data-i18n="nav.profile">Profile</a>
+            <a href="skills.html" data-i18n="nav.skills">Skills</a>
+            <a href="projects.html" data-i18n="nav.work">Work</a>
+            <a href="journey.html" class="active" data-i18n="nav.journey">Journey</a>
+            <a href="freelance.html" data-i18n="nav.services">Services</a>
+            <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <span style="color: var(--text-tertiary);">|</span>
+                <button class="lang-btn" data-lang="nl">NL</button>
+            </div>
+            <a href="contact.html" class="cta-btn" data-i18n="nav.connect">Connect</a>
+        </div>
+    </nav>
+
+    <div class="contact-page-wrapper" style="align-items: flex-start; min-height: 100vh;">
+        <div class="container" style="padding-top: 5rem; width: 100%;">
+
+            <header class="section-header" style="text-align: left; margin-bottom: 5rem;">
+                <span class="hero-label" data-i18n="journey.label">TIMELINE</span>
+                <h1 class="page-title" data-i18n="journey.h1">The Journey</h1>
+                <p style="color: var(--text-secondary); max-width: 500px; margin-top: 1rem;" data-i18n="journey.desc">
+                    From "Hello World" to complex architectures. A visual history of my growth as a developer and
+                    designer.
+                </p>
+            </header>
+
+            <div class="timeline-container">
+                <!-- Vertical Line -->
+                <div class="timeline-line"></div>
+
+                <!-- 2023 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="journey.1.title">High School Graduation</h3>
+                        <span class="timeline-subtitle" data-i18n="journey.1.sub">KOSH • Accountancy & IT</span>
+                        <p data-i18n="journey.1.desc">Graduated with a focus on Accountancy and IT. Built my first
+                            functional applications and
+                            discovered a passion for problem-solving through code.</p>
+                    </div>
+                </div>
+
+                <!-- 2024 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="journey.2.title">University Start</h3>
+                        <span class="timeline-subtitle" data-i18n="journey.2.sub">Thomas More • APPAI</span>
+                        <p data-i18n="journey.2.desc">Started my journey in Applied Artificial Intelligence. Dove deep
+                            into Python, Algorithms, and
+                            the fundamentals of computer science.</p>
+                    </div>
+                </div>
+
+                <!-- 2024 Late -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="journey.3.title">Freelance Debut</h3>
+                        <span class="timeline-subtitle" data-i18n="journey.3.sub">Mylemans Partnership</span>
+                        <p data-i18n="journey.3.desc">Launched my first major commercial project for <strong>Tuinwerken
+                                Mylemans</strong>. Began
+                            collaborating with Raoul Buffels to tackle larger scale solutions.</p>
+                    </div>
+                </div>
+
+                <!-- 2025 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2025</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="journey.4.title">Digital Architect</h3>
+                        <span class="timeline-subtitle" data-i18n="journey.4.sub">Current Era</span>
+                        <p data-i18n="journey.4.desc">Developing <strong>Mission Zebra</strong> and
+                            <strong>TaskFlow</strong>. Focusing on
+                            integrating AI agents into web workflows and pushing the boundaries of UX.</p>
+                    </div>
+                </div>
+
+                <!-- Future -->
+                <div class="timeline-item future">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">FUTURE</div>
+                    <div class="timeline-content">
+                        <h3 data-i18n="journey.5.title">The Next Step</h3>
+                        <p data-i18n="journey.5.desc">Continuously learning. Looking for opportunities to build systems
+                            that impact thousands of
+                            users.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container" style="display: flex; flex-direction: column; gap: 1rem; align-items: center;">
+            <span data-i18n="footer.rights">&copy; 2026 Milan Wouters.</span>
+            <a href="privacy.html" style="font-size: 0.8rem; color: var(--text-tertiary);"
+                data-i18n="footer.privacy">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
